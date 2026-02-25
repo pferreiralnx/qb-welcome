@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `welcome_rewards` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `identifier` VARCHAR(60) NOT NULL,
+    `prize` INT NOT NULL,
+    `redeemed_at` DATETIME DEFAULT CURRENT_TIMESTAMP
+);
